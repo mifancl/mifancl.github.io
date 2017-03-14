@@ -1,39 +1,32 @@
-# Site settings
-title: Monochrome | A minimal, responsive Jekyll blog theme
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
+# Site Settings
+title:               Lagrange
+tagline:             a minimalist Jekyll theme
+description:
+baseurl:            #"/Lagrange"
+url:                #"https://lenpaul.github.io"
+github:
+  url:               #"https://lenpaul.github.io/Lagrange"
 author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
+  name:              "Paul Le"
+  email:             "l.nguyen.paul@gmail.com"
+  twitter:           "paululele"
+  instagram:         "paululele"
+  github:            "lenpaul"
+  facebook:          "Le.Paul.94"
+  linkedin:          "lenpaul"
+navigation:
+- title: About
+  url: /about
+- title: Writing
+  url: /writing
+- title: Contact
+  url: /contact
+
+paginate:            5
+disqus:              #"your-disqus"
 
 # Build settings
-baseurl: /monochrome # Change this to your relative path (ex: /blog/), or leave just a /
-markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
-
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-
-# Custom variables
-version: "1.0.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
