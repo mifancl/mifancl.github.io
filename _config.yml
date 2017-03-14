@@ -2,16 +2,16 @@
 title:               MiFancl
 tagline:             a tiny little blog
 description:
-baseurl:            #"/Lagrange"
-url:                #"https://lenpaul.github.io"
+baseurl:            #"/"
+url:                #"https://mifancl.github.io"
 github:
-  url:               #"https://lenpaul.github.io/Lagrange"
+  url:               #"https://mifancl.github.io/"
 author:
-  name:              "Paul Le"
-  email:             "l.nguyen.paul@gmail.com"
+  name:              "Xiong Hu"
+  email:             "mifancl@gmail.com"
   twitter:           "paululele"
   instagram:         "paululele"
-  github:            "lenpaul"
+  github:            "mifancl"
   facebook:          "Le.Paul.94"
   linkedin:          "lenpaul"
 navigation:
